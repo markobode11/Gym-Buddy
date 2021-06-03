@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "e4DpJtj4B3e0mo/4AkqeAJ4WYdqbo2lrVPjZWAy3z/qXgeT5IVEBSvZyGeQnGXAlcYzaBKSTyZ++Qz6Tt65VAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.4\\microsoft.aspnetcore.cryptography.keyderivation.5.0.4.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.4\\microsoft.extensions.identity.core.5.0.4.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.4\\microsoft.extensions.identity.stores.5.0.4.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\marko\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

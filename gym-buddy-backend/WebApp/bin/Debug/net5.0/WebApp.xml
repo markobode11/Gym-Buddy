@@ -1,0 +1,620 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApp</name>
+    </assembly>
+    <members>
+        <member name="T:WebApp.ApiControllers.DifficultiesController">
+            <summary>
+            API controller to get the list of difficulties.
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.DifficultiesController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor of the controller
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.DifficultiesController.GetDifficulties">
+            <summary>
+            Get all difficulties.
+            </summary>
+            <returns>List of difficulty DTOs</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.ExerciseInWorkoutController">
+            <summary>
+            API controller to deal with exercises in workouts
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExerciseInWorkoutController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App bll</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExerciseInWorkoutController.GetExerciseInWorkout(System.Int32)">
+            <summary>
+            Method to return ExerciseInWorkout dto that was created in the POST method
+            </summary>
+            <param name="id">Id of the ExerciseInWorkout</param>
+            <returns>ExerciseInWorkout dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExerciseInWorkoutController.PostExerciseInWorkout(PublicAPI.DTO.v1.ExerciseInWorkout)">
+            <summary>
+            Put an exercise in a workout
+            </summary>
+            <param name="exerciseInWorkout">Dto to clarify exercise and workout</param>
+            <returns>Newly created ExerciseInWorkout dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExerciseInWorkoutController.DeleteExerciseInWorkout(System.Int32,System.Int32)">
+            <summary>
+            Remove exercise from workout
+            </summary>
+            <param name="workoutId">Id of the workout</param>
+            <param name="exerciseId">Id of the exercise</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.ExercisesController">
+            <summary>
+            API controller to deal with exercises.
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExercisesController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for controller.
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExercisesController.GetExercises">
+            <summary>
+            Get all exercises without muscles trained
+            </summary>
+            <returns>List of exercises with minimal information</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExercisesController.GetExercise(System.Int32)">
+            <summary>
+            Get exercises by id. Exercise has included trained muscles.
+            </summary>
+            <param name="id">Id of the exercises to get</param>
+            <returns>Exercise with trained muscles</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExercisesController.PutExercise(System.Int32,PublicAPI.DTO.v1.ExerciseSimple)">
+            <summary>
+            Update exercise
+            </summary>
+            <param name="id">Id of the exercise to update</param>
+            <param name="exercise">Exercise dto with new information</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExercisesController.PostExercise(PublicAPI.DTO.v1.ExerciseSimple)">
+            <summary>
+            Create new exercise
+            </summary>
+            <param name="exercise">Exercise dto of the new exercise</param>
+            <returns>Newly created exercise with id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ExercisesController.DeleteExercise(System.Int32)">
+            <summary>
+            Delete an exercise
+            </summary>
+            <param name="id">Id of exercise to be deleted</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.FullProgramsController">
+            <summary>
+            API controller to deal with full programs.
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.FullProgramsController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for controller.
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.FullProgramsController.GetFullPrograms">
+            <summary>
+            Get all full programs without splits.
+            </summary>
+            <returns>List of programs with minimal information</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FullProgramsController.GetFullProgram(System.Int32)">
+            <summary>
+            Get full program by id. Program has included splits.
+            </summary>
+            <param name="id">Id of the full program to get</param>
+            <returns>Full program with splits</returns>
+            [HttpGet("{id}")]
+        </member>
+        <member name="M:WebApp.ApiControllers.FullProgramsController.PutFullProgram(System.Int32,PublicAPI.DTO.v1.FullProgramSimple)">
+            <summary>
+            Update program
+            </summary>
+            <param name="id">Id of the program to update</param>
+            <param name="fullProgram">FullProgram dto with new info</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FullProgramsController.PostFullProgram(PublicAPI.DTO.v1.FullProgramSimple)">
+            <summary>
+            Create new full program.
+            </summary>
+            <param name="fullProgram">DTO of the program to create.</param>
+            <returns>Newly created program</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FullProgramsController.DeleteFullProgram(System.Int32)">
+            <summary>
+            Delete program by id.
+            </summary>
+            <param name="id">Id of the program to be deleted</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.Identity.AccountController">
+            <summary>
+            API controller for registering and logging in.
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.#ctor(Microsoft.AspNetCore.Identity.SignInManager{Domain.App.Identity.AppUser},Microsoft.AspNetCore.Identity.UserManager{Domain.App.Identity.AppUser},Microsoft.Extensions.Logging.ILogger{WebApp.ApiControllers.Identity.AccountController},Microsoft.Extensions.Configuration.IConfiguration,Contracts.BLL.App.IAppBLL,AutoMapper.IMapper,Microsoft.AspNetCore.Identity.RoleManager{Domain.App.Identity.AppRole})">
+            <summary>
+            Constructor for controller.
+            </summary>
+            <param name="signInManager">Sign in manager</param>
+            <param name="userManager">User manager</param>
+            <param name="logger">Logger</param>
+            <param name="configuration">Configuration</param>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Generic mapper</param>
+            <param name="roleManager">Role manager</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.Login(PublicAPI.DTO.v1.Account.Login)">
+            <summary>
+            Try to log in user
+            </summary>
+            <param name="dto">Login dto</param>
+            <returns>JWT response with token</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.Register(PublicAPI.DTO.v1.Account.Register)">
+            <summary>
+            Try to register new user.
+            </summary>
+            <param name="dto">Register dto</param>
+            <returns>JWT response with token for new user</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.RegisterMentor(PublicAPI.DTO.v1.CreateMentorAndUser)">
+            <summary>
+            Create new Mentor and Account for the mentor.
+            </summary>
+            <param name="dto">Dto with information to create a Mentor and a User account for the mentor</param>
+            <returns>Newly created mentor</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.ChangeUserInfo(PublicAPI.DTO.v1.Identity.AppUserUpdate)">
+            <summary>
+            Update user info
+            </summary>
+            <param name="dto">Dto with information to update the user</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.GetUser">
+            <summary>
+            Get user info.
+            </summary>
+            <returns>AppUser dto with minimal information about the user.</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.GetAllUsers">
+            <summary>
+            Get all users with role and lockdown info. Currently logged in user will be excluded.
+            </summary>
+            <returns>List of app users</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.GetUserById(System.Int32)">
+            <summary>
+            Get minimal user with role by user id.
+            </summary>
+            <param name="userId">Id of the requested user</param>
+            <returns>AppUser dto with minimal information about the user including role name</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.GetRoles">
+            <summary>
+            Get all roles.
+            </summary>
+            <returns>List of app roles</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.RemoveRole(System.Int32)">
+            <summary>
+            Remove role from user
+            </summary>
+            <param name="userId">Id of the user</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.AddRole(PublicAPI.DTO.v1.Identity.AppUserWithRole)">
+            <summary>
+            Add role for user
+            </summary>
+            <param name="dto">Dto to specify role and user id</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.StartLockdown(PublicAPI.DTO.v1.Identity.AppUserLockDown)">
+            <summary>
+            Start lockdown for user
+            </summary>
+            <param name="dto">Dto to specify user and lockdown end</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.EndLockdown(System.Int32)">
+            <summary>
+            Start lockdown for user
+            </summary>
+            <param name="userId">Id of the user</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.MacrosController">
+            <summary>
+            API controller to deal with user macros.
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.MacrosController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App bll</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.MacrosController.GetMacros">
+            <summary>
+            Get user macros.
+            </summary>
+            <returns>Macros for the user</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.MacrosController.PostMacros(PublicAPI.DTO.v1.MacrosCalculation)">
+            <summary>
+            Create macros for user.
+            </summary>
+            <param name="macros">Macros dto of the new macros</param>
+            <returns>Newly created macros</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.MentorsController">
+            <summary>
+            API controller to deal with Mentors
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.MentorsController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor of the controller
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.MentorsController.GetMentors">
+            <summary>
+            Get all mentors with basic information about them
+            </summary>
+            <returns>List of mentors</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.MentorsController.GetMentor(System.Int32)">
+            <summary>
+            Get mentor by Id
+            </summary>
+            <param name="id">Id of the mentor to retrieve</param>
+            <returns>Requested mentor</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.MentorsController.PutMentor(System.Int32,PublicAPI.DTO.v1.MentorSimple)">
+            <summary>
+            Update mentor.
+            </summary>
+            <param name="id">Id of the mentor to be updated</param>
+            <param name="mentor">Mentor dto with new information</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.MentorsController.DeleteMentor(System.Int32)">
+            <summary>
+            Delete mentor by Id.
+            </summary>
+            <param name="id">Id of the mentor to be deleted</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.MuscleInExerciseController">
+            <summary>
+            Controller to add or remove muscles to exercise
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.MuscleInExerciseController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App bll</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.MuscleInExerciseController.GetMuscleInExercise(System.Int32)">
+            <summary>
+            Method to return MuscleInExercise dto that was created in the POST method
+            </summary>
+            <param name="id">Id of the MuscleInExercise</param>
+            <returns>MuscleInExercise dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.MuscleInExerciseController.PostMuscleInExercise(PublicAPI.DTO.v1.MuscleInExercise)">
+            <summary>
+            Add a muscle to a workout
+            </summary>
+            <param name="muscleInExercise">Dto to clarify muscleId and workoutId</param>
+            <returns>Newly created MuscleInExercise dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.MuscleInExerciseController.DeleteMuscleInExercise(System.Int32,System.Int32)">
+            <summary>
+            Remove muscle from exercise
+            </summary>
+            <param name="muscleId">Id of the muscle</param>
+            <param name="exerciseId">Id of the exercise</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.MusclesController">
+            <summary>
+            API controller to get the list of muscles.
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.MusclesController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:WebApp.ApiControllers.MusclesController.GetMuscles">
+            <summary>
+            Get the list of muscles
+            </summary>
+            <returns>List of muscle DTOs</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.SplitInProgramController">
+            <summary>
+            API controller to add or remove splits to programs
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitInProgramController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitInProgramController.GetSplitInProgram(System.Int32)">
+            <summary>
+            Method to return SplitInProgram dto that was created in the POST method
+            </summary>
+            <param name="id">Id of the SplitInProgram dto</param>
+            <returns>SplitInProgram dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitInProgramController.PostSplitInProgram(PublicAPI.DTO.v1.SplitInProgram)">
+            <summary>
+            Add a split to a program
+            </summary>
+            <param name="splitInProgram">Dto to clarify the split and the program</param>
+            <returns>Newly created SplitInProgram dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitInProgramController.DeleteSplitInProgram(System.Int32,System.Int32)">
+            <summary>
+            Remove a split from a program
+            </summary>
+            <param name="programId">Id of the program</param>
+            <param name="splitId">Id of the split</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.SplitsController">
+            <summary>
+            Api controller to deal with Splits
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitsController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitsController.GetSplits">
+            <summary>
+            Get the list of splits without workouts in them
+            </summary>
+            <returns>List of splits</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitsController.GetSplit(System.Int32)">
+            <summary>
+            Get a split with workouts that are in that split.
+            </summary>
+            <param name="id">Id of the split to retrieve</param>
+            <returns>Split with workouts</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitsController.PutSplit(System.Int32,PublicAPI.DTO.v1.SplitSimple)">
+            <summary>
+            Update split
+            </summary>
+            <param name="id">Id of  the split to be updated</param>
+            <param name="split">Split dto with updated information</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitsController.PostSplit(PublicAPI.DTO.v1.SplitSimple)">
+            <summary>
+            Create new split
+            </summary>
+            <param name="split">Split dto of the new split</param>
+            <returns>Newly created split</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SplitsController.DeleteSplit(System.Int32)">
+            <summary>
+            Delete split by id
+            </summary>
+            <param name="id">Id of the split to be deleted</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.UserMentorController">
+            <summary>
+            API controller to add and remove Users from Mentor
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserMentorController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserMentorController.GetUserMentor">
+            <summary>
+            Method to return UserMentor dto that was created in the POST method
+            </summary>
+            <returns>UserMentor dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserMentorController.GetUsersMentor">
+            <summary>
+            Method to return the Mentor dto for the User
+            </summary>
+            <returns>UserMentor dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserMentorController.PostUserMentor(System.Int32)">
+            <summary>
+            Add user to a mentor
+            </summary>
+            <param name="mentorId">Id of the mentor to add to the user</param>
+            <returns>Newly created UserMentor dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserMentorController.DeleteUserMentor">
+            <summary>
+            Remove user from a mentor
+            </summary>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserMentorController.GetMentorsTrainees">
+            <summary>
+            Method to return the Mentor dto for the User
+            </summary>
+            <returns>UserMentor dto</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.UserProgramsController">
+            <summary>
+            API controller to add programs to users
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserProgramsController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserProgramsController.GetUserProgram(System.Int32)">
+            <summary>
+            Method to return UserProgram dto that was created in the POST method
+            </summary>
+            <param name="id">Id of the UserProgram</param>
+            <returns>UserProgram dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserProgramsController.GetUserPrograms">
+            <summary>
+            Method to return all UserPrograms for the current user.
+            </summary>
+            <returns>Current users programs</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserProgramsController.PostUserProgram(System.Int32)">
+            <summary>
+            Add program to a user
+            </summary>
+            <param name="programId">Id of the program to add for the user.</param>
+            <returns>Newly created UserProgram dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserProgramsController.DeleteUserProgram(System.Int32)">
+            <summary>
+            Remove program from user
+            </summary>
+            <param name="programId">Id of the program to remove from the user</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.UserProgramsController.GetUserFullPrograms">
+            <summary>
+            Get all user full programs without splits.
+            </summary>
+            <returns>List of users programs with minimal information</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.WorkoutInSplitController">
+            <summary>
+            API controller to add and remove workouts from splits
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutInSplitController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutInSplitController.GetWorkoutInSplit(System.Int32)">
+            <summary>
+            Method to return WorkoutInSplit dto that was created in the POST method
+            </summary>
+            <param name="id">Id of the WorkoutInSplit</param>
+            <returns>Requested WorkoutInSplit dto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutInSplitController.PostWorkoutInSplit(PublicAPI.DTO.v1.WorkoutInSplit)">
+            <summary>
+            Add a workout to a split
+            </summary>
+            <param name="workoutInSplit">Dto to clarify the workout and the split</param>
+            <returns>Newly created WorkoutInSplitDto</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutInSplitController.DeleteWorkoutInSplit(System.Int32,System.Int32)">
+            <summary>
+            Remove workout from split
+            </summary>
+            <param name="workoutId">Id of the workout</param>
+            <param name="splitId">Id of the split</param>
+            <returns>No content</returns>
+        </member>
+        <member name="T:WebApp.ApiControllers.WorkoutsController">
+            <summary>
+            API controller to deal with workouts
+            </summary>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutsController.#ctor(Contracts.BLL.App.IAppBLL,AutoMapper.IMapper)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="bll">App BLL</param>
+            <param name="mapper">Mapper between API dto and BLL dto</param>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutsController.GetWorkouts">
+            <summary>
+            Get all workouts without exercises in them
+            </summary>
+            <returns>List of workouts</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutsController.GetWorkout(System.Int32)">
+            <summary>
+            Get workout by id. Workout has exercises included
+            </summary>
+            <param name="id">Id of the workout to retrieve</param>
+            <returns>Workout with exercises</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutsController.PutWorkout(System.Int32,PublicAPI.DTO.v1.WorkoutSimple)">
+            <summary>
+            Update workout.
+            </summary>
+            <param name="id">Id of the workout to be updated</param>
+            <param name="workout">Workout dto with updated information</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutsController.PostWorkout(PublicAPI.DTO.v1.WorkoutSimple)">
+            <summary>
+            Create workout
+            </summary>
+            <param name="workout">Workout dto that needs creation</param>
+            <returns>Newly created workout</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.WorkoutsController.DeleteWorkout(System.Int32)">
+            <summary>
+            Delete workout by id
+            </summary>
+            <param name="id">Id of the workout to be deleted</param>
+            <returns>No content</returns>
+        </member>
+    </members>
+</doc>

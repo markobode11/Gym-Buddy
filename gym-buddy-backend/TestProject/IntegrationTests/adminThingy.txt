@@ -1,0 +1,54 @@
+        private async Task<string> GetAdminToken()
+        {
+            await CreateAdminAccount();
+            var loginUri = "/api/v1/account/login";
+
+            var body = new Login
+            {
+                Email = "admin@ttu.ee",
+                Password = "Foobar1."
+            };
+
+            var content = new StringContent(
+                JsonSerializer.Serialize(body),
+                Encoding.UTF8,
+                "application/json"
+            );
+
+            var response = await _client.PostAsync(loginUri, content);
+
+            var data = await response.Content.ReadAsStringAsync();
+
+            var jwtResponse = JsonHelper.DeserializeWithWebDefaults<JwtResponse>(data);
+
+            return jwtResponse!.Token;
+        }
+
+        private async Task SeedDataWithAdminAccount(int count = 5)
+        {
+            var token = await GetAdminToken();
+            var uri = "/api/v1/FullPrograms";
+
+            for (int i = 0; i < count; i++)
+            {
+                var program = new FullProgram
+                {
+                    Name = $"Seeded program {i}",
+                    Description = $"Seeded desc {i}",
+                    Goal = $"Seeded goal {i}"
+                };
+
+                var request = new HttpRequestMessage(HttpMethod.Post, uri)
+                {
+                    Content = new StringContent(
+                        JsonSerializer.Serialize(program),
+                        Encoding.UTF8,
+                        "application/json"),
+                };
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                
+                await _client.SendAsync(request);
+            }
+            
+            
+        }

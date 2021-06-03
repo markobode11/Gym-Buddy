@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App.DTO\\BLL.App.DTO.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App.DTO\\BLL.App.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App.DTO\\BLL.App.DTO.csproj",
+        "projectName": "BLL.App.DTO",
+        "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App.DTO\\BLL.App.DTO.csproj",
+        "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\Contracts.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\Contracts.Domain.Base.csproj"
+              },
+              "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj": {
+                "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj"
+              },
+              "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\Contracts.Domain.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\Contracts.Domain.Base.csproj",
+        "projectName": "Contracts.Domain.Base",
+        "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\Contracts.Domain.Base.csproj",
+        "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj",
+        "projectName": "DAL.App.DTO",
+        "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj",
+        "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj": {
+                "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj"
+              },
+              "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj",
+        "projectName": "Domain.App",
+        "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj",
+        "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj",
+        "projectName": "Domain.Base",
+        "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\Domain.Base.csproj",
+        "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\Contracts.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.Domain.Base\\Contracts.Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
