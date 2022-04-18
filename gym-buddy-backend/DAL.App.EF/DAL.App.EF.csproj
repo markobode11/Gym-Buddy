@@ -1,23 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <RootNamespace>DAL.App.EF</RootNamespace>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="AutoMapper" Version="10.1.1" />
-      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Contracts.DAL.App\Contracts.DAL.App.csproj" />
-      <ProjectReference Include="..\DAL.App.DTO\DAL.App.DTO.csproj" />
-      <ProjectReference Include="..\DAL.Base.EF\DAL.Base.EF.csproj" />
-      <ProjectReference Include="..\Domain.App\Domain.App.csproj" />
-    </ItemGroup>
-
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DAL.App.EF</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.310801">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contracts.DAL.App\Contracts.DAL.App.csproj" />
+    <ProjectReference Include="..\DAL.App.DTO\DAL.App.DTO.csproj" />
+    <ProjectReference Include="..\DAL.Base.EF\DAL.Base.EF.csproj" />
+    <ProjectReference Include="..\Domain.App\Domain.App.csproj" />
+  </ItemGroup>
 </Project>

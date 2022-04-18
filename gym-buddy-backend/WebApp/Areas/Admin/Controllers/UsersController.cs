@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApp.Areas.Admin.Controllers
 {
     [Authorize(Roles = "Admin")]
-    public class UsersController : Controller
+    public class UsersController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly IAppUnitOfWork _uow;
         private readonly UserManager<AppUser> _userManager;

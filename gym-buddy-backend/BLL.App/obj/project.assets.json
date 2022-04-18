@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "AutoMapper/10.1.1": {
         "type": "package",
         "dependencies": {
@@ -43,6 +43,12 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers/0.3.310801": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -235,7 +241,7 @@
       },
       "BLL.App.DTO/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Contracts.Domain.Base": "1.0.0",
@@ -252,7 +258,7 @@
       },
       "BLL.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Contracts.BLL.Base": "1.0.0"
@@ -266,7 +272,7 @@
       },
       "Contracts.BLL.App/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BLL.App.DTO": "1.0.0",
           "Contracts.BLL.Base": "1.0.0",
@@ -281,7 +287,7 @@
       },
       "Contracts.BLL.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.DAL.Base": "1.0.0",
           "Contracts.Domain.Base": "1.0.0"
@@ -295,7 +301,7 @@
       },
       "Contracts.DAL.App/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.DAL.Base": "1.0.0",
           "DAL.App.DTO": "1.0.0",
@@ -310,7 +316,7 @@
       },
       "Contracts.DAL.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.Domain.Base": "1.0.0"
         },
@@ -323,7 +329,7 @@
       },
       "Contracts.Domain.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Extensions.Identity.Stores": "5.0.4"
         },
@@ -336,7 +342,7 @@
       },
       "DAL.App.DTO/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Domain.App": "1.0.0",
@@ -351,7 +357,7 @@
       },
       "Domain.App/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Domain.Base": "1.0.0",
           "Microsoft.Extensions.Identity.Stores": "5.0.4",
@@ -366,7 +372,7 @@
       },
       "Domain.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.Domain.Base": "1.0.0"
         },
@@ -379,9 +385,8 @@
       },
       "Extensions.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "6.10.0",
           "System.IdentityModel.Tokens.Jwt": "6.10.0"
         },
         "compile": {
@@ -515,6 +520,30 @@
         "ref/xamarinwatchos10/_._",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers/0.3.310801": {
+      "sha512": "+rBuFxPhhB05/TdNoqEBFMvYPPubRzUBBXzEYT2WvQB4O7v5S0lk8SYVdbc7uOpAKYJPR2vtAVOlAY3KBih0LA==",
+      "type": "package",
+      "path": "microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.3.310801",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.Common.dll",
+        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.CodeFixes.dll",
+        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.Common.dll",
+        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.CodeFixes.dll",
+        "build/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props",
+        "build/TypeMaps.props",
+        "build/WebTypeReplacements.typemap",
+        "icon.png",
+        "microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.310801.nupkg.sha512",
+        "microsoft.dotnet.upgradeassistant.extensions.default.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -1045,45 +1074,52 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "BLL.Base >= 1.0.0",
       "Contracts.BLL.App >= 1.0.0",
-      "Extensions.Base >= 1.0.0"
+      "Extensions.Base >= 1.0.0",
+      "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.3.310801"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marko\\.nuget\\packages\\": {}
+    "C:\\Users\\marko.bode\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App\\BLL.App.csproj",
+      "projectUniqueName": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\BLL.App\\BLL.App.csproj",
       "projectName": "BLL.App",
-      "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App\\BLL.App.csproj",
-      "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.App\\obj\\",
+      "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\BLL.App\\BLL.App.csproj",
+      "packagesPath": "C:\\Users\\marko.bode\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\BLL.App\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\marko.bode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.Base\\BLL.Base.csproj": {
-              "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\BLL.Base\\BLL.Base.csproj"
+            "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\BLL.Base\\BLL.Base.csproj": {
+              "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\BLL.Base\\BLL.Base.csproj"
             },
-            "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.BLL.App\\Contracts.BLL.App.csproj": {
-              "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.BLL.App\\Contracts.BLL.App.csproj"
+            "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Contracts.BLL.App\\Contracts.BLL.App.csproj": {
+              "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Contracts.BLL.App\\Contracts.BLL.App.csproj"
             },
-            "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Extensions.Base\\Extensions.Base.csproj": {
-              "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Extensions.Base\\Extensions.Base.csproj"
+            "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Extensions.Base\\Extensions.Base.csproj": {
+              "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Extensions.Base\\Extensions.Base.csproj"
             }
           }
         }
@@ -1095,8 +1131,15 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[0.3.310801, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -1112,7 +1155,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApp.Controllers
 {
     [Authorize(Roles = "Admin")]
-    public class SplitsController : Controller
+    public class SplitsController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly IAppUnitOfWork _uow;
 

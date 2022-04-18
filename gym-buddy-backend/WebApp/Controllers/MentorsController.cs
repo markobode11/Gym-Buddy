@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApp.Controllers
 {
     [Authorize(Roles = "Admin")]
-    public class MentorsController : Controller
+    public class MentorsController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly IAppUnitOfWork _uow;
 

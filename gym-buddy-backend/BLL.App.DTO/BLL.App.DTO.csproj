@@ -1,18 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="AutoMapper" Version="10.1.1" />
-      <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.4" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Contracts.Domain.Base\Contracts.Domain.Base.csproj" />
-      <ProjectReference Include="..\DAL.App.DTO\DAL.App.DTO.csproj" />
-      <ProjectReference Include="..\Domain.Base\Domain.Base.csproj" />
-    </ItemGroup>
-
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.4" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.310801">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contracts.Domain.Base\Contracts.Domain.Base.csproj" />
+    <ProjectReference Include="..\DAL.App.DTO\DAL.App.DTO.csproj" />
+    <ProjectReference Include="..\Domain.Base\Domain.Base.csproj" />
+  </ItemGroup>
 </Project>

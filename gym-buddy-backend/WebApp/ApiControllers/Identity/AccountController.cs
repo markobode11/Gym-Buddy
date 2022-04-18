@@ -231,7 +231,7 @@ namespace WebApp.ApiControllers.Identity
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        public async Task<ActionResult> ChangeUserInfo(AppUserUpdate dto)
+        public async Task<Microsoft.AspNetCore.Mvc.ActionResult> ChangeUserInfo(AppUserUpdate dto)
         {
             var user = await _userManager.GetUserAsync(User);
             if (user == null) return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
@@ -342,7 +342,7 @@ namespace WebApp.ApiControllers.Identity
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        public async Task<ActionResult> RemoveRole(int userId)
+        public async Task<Microsoft.AspNetCore.Mvc.ActionResult> RemoveRole(int userId)
         {
             var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == userId);
             if (user == null) return NotFound("Bad user id!");
@@ -362,7 +362,7 @@ namespace WebApp.ApiControllers.Identity
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        public async Task<ActionResult> AddRole(AppUserWithRole dto)
+        public async Task<Microsoft.AspNetCore.Mvc.ActionResult> AddRole(AppUserWithRole dto)
         {
             var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Email == dto.Email);
             if (user == null) return NotFound("Bad user email!");
@@ -381,7 +381,7 @@ namespace WebApp.ApiControllers.Identity
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        public async Task<ActionResult> StartLockdown(AppUserLockDown dto)
+        public async Task<Microsoft.AspNetCore.Mvc.ActionResult> StartLockdown(AppUserLockDown dto)
         {
             var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == dto.Id);
             if (user == null) return NotFound("Bad user id!");
@@ -400,7 +400,7 @@ namespace WebApp.ApiControllers.Identity
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        public async Task<ActionResult> EndLockdown(int userId)
+        public async Task<Microsoft.AspNetCore.Mvc.ActionResult> EndLockdown(int userId)
         {
             var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == userId);
             if (user == null) return NotFound("Bad user id!");

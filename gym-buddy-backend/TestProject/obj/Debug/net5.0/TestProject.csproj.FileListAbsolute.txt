@@ -546,3 +546,11 @@ C:\Users\marko\icd0009-2020s\HomeProject\GymBuddy\TestProject\obj\Debug\net5.0\T
 C:\Users\marko\icd0009-2020s\HomeProject\GymBuddy\TestProject\obj\Debug\net5.0\ref\TestProject.dll
 C:\Users\marko\icd0009-2020s\HomeProject\GymBuddy\TestProject\obj\Debug\net5.0\TestProject.pdb
 C:\Users\marko\icd0009-2020s\HomeProject\GymBuddy\TestProject\obj\Debug\net5.0\TestProject.genruntimeconfig.cache
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\TestProject.csproj.AssemblyReference.cache
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\TestProject.AssemblyInfo.cs
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\TestProject.dll
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\ref\TestProject.dll
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\TestProject\obj\Debug\net5.0\TestProject.pdb

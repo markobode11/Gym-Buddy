@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApp.Controllers
 {
     [Authorize(Roles = "Admin")]
-    public class ExercisesController : Controller
+    public class ExercisesController : Microsoft.AspNetCore.Mvc.Controller
     {
         // private readonly ExerciseRepository _repository;
         private readonly IAppUnitOfWork _uow;

@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApp.Controllers
 {
     [Authorize]
-    public class UserProgramsController : Controller
+    public class UserProgramsController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly IAppUnitOfWork _uow;
 

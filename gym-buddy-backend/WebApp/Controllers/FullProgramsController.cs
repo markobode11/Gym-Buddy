@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApp.Controllers
 {
     [Authorize(Roles = "Admin")]
-    public class FullProgramsController : Controller
+    public class FullProgramsController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly IAppUnitOfWork _uow;
 

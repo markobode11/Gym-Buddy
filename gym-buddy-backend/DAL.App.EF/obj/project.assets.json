@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "AutoMapper/10.1.1": {
         "type": "package",
         "dependencies": {
@@ -124,6 +124,12 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers/0.3.310801": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore/5.0.4": {
@@ -1552,7 +1558,7 @@
       },
       "Contracts.DAL.App/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.DAL.Base": "1.0.0",
           "DAL.App.DTO": "1.0.0",
@@ -1567,7 +1573,7 @@
       },
       "Contracts.DAL.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.Domain.Base": "1.0.0"
         },
@@ -1580,7 +1586,7 @@
       },
       "Contracts.Domain.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Extensions.Identity.Stores": "5.0.4"
         },
@@ -1593,7 +1599,7 @@
       },
       "DAL.App.DTO/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Domain.App": "1.0.0",
@@ -1608,7 +1614,7 @@
       },
       "DAL.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.DAL.Base": "1.0.0"
         },
@@ -1621,7 +1627,7 @@
       },
       "DAL.Base.EF/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Contracts.DAL.Base": "1.0.0",
@@ -1637,7 +1643,7 @@
       },
       "Domain.App/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Domain.Base": "1.0.0",
           "Microsoft.Extensions.Identity.Stores": "5.0.4",
@@ -1652,7 +1658,7 @@
       },
       "Domain.Base/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts.Domain.Base": "1.0.0"
         },
@@ -1885,6 +1891,30 @@
         "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb",
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll",
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb"
+      ]
+    },
+    "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers/0.3.310801": {
+      "sha512": "+rBuFxPhhB05/TdNoqEBFMvYPPubRzUBBXzEYT2WvQB4O7v5S0lk8SYVdbc7uOpAKYJPR2vtAVOlAY3KBih0LA==",
+      "type": "package",
+      "path": "microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.3.310801",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.Common.dll",
+        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.CodeFixes.dll",
+        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.Common.dll",
+        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.CodeFixes.dll",
+        "build/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props",
+        "build/TypeMaps.props",
+        "build/WebTypeReplacements.typemap",
+        "icon.png",
+        "microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.310801.nupkg.sha512",
+        "microsoft.dotnet.upgradeassistant.extensions.default.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Microsoft.EntityFrameworkCore/5.0.4": {
@@ -6045,53 +6075,60 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "AutoMapper >= 10.1.1",
       "Contracts.DAL.App >= 1.0.0",
       "DAL.App.DTO >= 1.0.0",
       "DAL.Base.EF >= 1.0.0",
       "Domain.App >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.4",
+      "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.3.310801",
       "Microsoft.EntityFrameworkCore >= 5.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marko\\.nuget\\packages\\": {}
+    "C:\\Users\\marko.bode\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.EF\\DAL.App.EF.csproj",
+      "projectUniqueName": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.App.EF\\DAL.App.EF.csproj",
       "projectName": "DAL.App.EF",
-      "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.EF\\DAL.App.EF.csproj",
-      "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.EF\\obj\\",
+      "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.App.EF\\DAL.App.EF.csproj",
+      "packagesPath": "C:\\Users\\marko.bode\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.App.EF\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\marko.bode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.DAL.App\\Contracts.DAL.App.csproj": {
-              "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Contracts.DAL.App\\Contracts.DAL.App.csproj"
+            "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Contracts.DAL.App\\Contracts.DAL.App.csproj": {
+              "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Contracts.DAL.App\\Contracts.DAL.App.csproj"
             },
-            "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj": {
-              "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj"
+            "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj": {
+              "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.App.DTO\\DAL.App.DTO.csproj"
             },
-            "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.Base.EF\\DAL.Base.EF.csproj": {
-              "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\DAL.Base.EF\\DAL.Base.EF.csproj"
+            "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.Base.EF\\DAL.Base.EF.csproj": {
+              "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.Base.EF\\DAL.Base.EF.csproj"
             },
-            "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj": {
-              "projectPath": "C:\\Users\\marko\\RiderProjects\\gym-buddy\\gym-buddy-backend\\Domain.App\\Domain.App.csproj"
+            "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Domain.App\\Domain.App.csproj": {
+              "projectPath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Domain.App\\Domain.App.csproj"
             }
           }
         }
@@ -6103,8 +6140,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -6113,6 +6150,11 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.4, )"
+          },
+          "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[0.3.310801, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -6138,7 +6180,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

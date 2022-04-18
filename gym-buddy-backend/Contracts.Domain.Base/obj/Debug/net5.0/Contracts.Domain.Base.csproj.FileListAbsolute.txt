@@ -46,3 +46,15 @@ C:\Users\marko\RiderProjects\gym-buddy\gym-buddy-backend\Contracts.Domain.Base\o
 C:\Users\marko\RiderProjects\gym-buddy\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.dll
 C:\Users\marko\RiderProjects\gym-buddy\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\ref\Contracts.Domain.Base.dll
 C:\Users\marko\RiderProjects\gym-buddy\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.pdb
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\bin\Debug\net5.0\Contracts.Domain.Base.deps.json
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\bin\Debug\net5.0\Contracts.Domain.Base.dll
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\bin\Debug\net5.0\ref\Contracts.Domain.Base.dll
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\bin\Debug\net5.0\Contracts.Domain.Base.pdb
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.csproj.AssemblyReference.cache
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.AssemblyInfoInputs.cache
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.AssemblyInfo.cs
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.csproj.CoreCompileInputs.cache
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.dll
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\ref\Contracts.Domain.Base.dll
+C:\Users\marko.bode\RiderProjects\Gym-Buddy2\gym-buddy-backend\Contracts.Domain.Base\obj\Debug\net5.0\Contracts.Domain.Base.pdb
