@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O5VqkdRm8oFq28n4KISbOIomh93NbnVj5GrvxE4QVqHH+LcCOX9DMq0F8pOgj8akQBp0ZezgVzZbETiwhcjl6Q==",
+  "dgSpecHash": "olb2ReN/M7/q156SeGwoR0Dtf43nKD4NPG2WmCNwqCVsHFDVF4CKdAGxcIYP6NHhx8M0LWqQJRSFEpzQ5JrOrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\DAL.Base.EF\\DAL.Base.EF.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,6 @@
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.4\\microsoft.aspnetcore.cryptography.keyderivation.5.0.4.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.3.310801\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.310801.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",

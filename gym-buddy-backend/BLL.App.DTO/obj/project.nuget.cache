@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "esV6sCzXlmBh2w1phb22fvlfm7+nyb/YHDIVugOPV4YHalgCKmpcoeLUvLaTH5asfkw4VFvBfgwI6U5ercpJSA==",
+  "dgSpecHash": "7gUNY4nVVCmab9nhcxTwecygX9FiippzzghJwgX1UrGiQkfxle2wZXLDem8MX5KQjz86/Ih3898uGNOUJBQZcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\BLL.App.DTO\\BLL.App.DTO.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,6 @@
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.4\\microsoft.aspnetcore.cryptography.keyderivation.5.0.4.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.3.310801\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.310801.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

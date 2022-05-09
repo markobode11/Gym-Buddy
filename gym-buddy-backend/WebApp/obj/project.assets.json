@@ -557,12 +557,6 @@
           }
         }
       },
-      "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers/0.3.310801": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore/5.0.5": {
         "type": "package",
         "dependencies": {
@@ -3336,30 +3330,6 @@
         "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb",
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll",
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb"
-      ]
-    },
-    "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers/0.3.310801": {
-      "sha512": "+rBuFxPhhB05/TdNoqEBFMvYPPubRzUBBXzEYT2WvQB4O7v5S0lk8SYVdbc7uOpAKYJPR2vtAVOlAY3KBih0LA==",
-      "type": "package",
-      "path": "microsoft.dotnet.upgradeassistant.extensions.default.analyzers/0.3.310801",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.Common.dll",
-        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.dll",
-        "analyzers/dotnet/cs/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.CodeFixes.dll",
-        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.Common.dll",
-        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.dll",
-        "analyzers/dotnet/vb/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.CodeFixes.dll",
-        "build/Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props",
-        "build/TypeMaps.props",
-        "build/WebTypeReplacements.typemap",
-        "icon.png",
-        "microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.310801.nupkg.sha512",
-        "microsoft.dotnet.upgradeassistant.extensions.default.analyzers.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
       ]
     },
     "Microsoft.EntityFrameworkCore/5.0.5": {
@@ -8264,7 +8234,6 @@
       "Microsoft.AspNetCore.Identity.UI >= 5.0.5",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.16",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.0.0",
-      "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.3.310801",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
@@ -8364,11 +8333,6 @@
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
             "target": "Package",
             "version": "[5.0.0, )"
-          },
-          "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[0.3.310801, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

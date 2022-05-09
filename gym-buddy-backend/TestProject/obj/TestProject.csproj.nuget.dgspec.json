@@ -57,11 +57,6 @@
               "target": "Package",
               "version": "[10.1.1, )"
             },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -134,13 +129,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -206,11 +194,6 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
-            },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
             }
           },
           "imports": [
@@ -280,13 +263,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -351,13 +327,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -425,13 +394,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -493,13 +455,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -558,11 +513,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -636,11 +586,6 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
-            },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
             }
           },
           "imports": [
@@ -722,11 +667,6 @@
               "target": "Package",
               "version": "[5.0.4, )"
             },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -805,11 +745,6 @@
               "target": "Package",
               "version": "[10.1.1, )"
             },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -876,13 +811,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -945,11 +873,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -1020,13 +943,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -1085,11 +1001,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.10.0, )"
@@ -1159,13 +1070,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -1252,11 +1156,6 @@
               "target": "Package",
               "version": "[5.0.6, )"
             },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.6, )"
@@ -1293,9 +1192,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -1392,11 +1288,6 @@
             "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
               "target": "Package",
               "version": "[5.0.0, )"
-            },
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

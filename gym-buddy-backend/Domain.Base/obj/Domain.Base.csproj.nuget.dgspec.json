@@ -43,11 +43,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -114,13 +109,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+fCMjRIorKfXJtplZxMzQ7c0TOgUEWRa5bNzf3lv4G/VwRzFSrBE8ddBH54AjHedQTJ6g+asYDvVJB26+bsDXA==",
+  "dgSpecHash": "y56ySIveUfzX6blghQ/V1rXoGion4lGaK+kMHL614h6P8OmSJZBNz7vzbpLlfb0R0t8HebCHUQaqjLv+0yXiNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,6 @@
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
-    "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.3.310801\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.310801.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.6\\microsoft.entityframeworkcore.analyzers.5.0.6.nupkg.sha512",

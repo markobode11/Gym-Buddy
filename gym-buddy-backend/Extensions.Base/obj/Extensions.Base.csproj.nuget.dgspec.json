@@ -43,11 +43,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[0.3.310801, )"
-            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.10.0, )"

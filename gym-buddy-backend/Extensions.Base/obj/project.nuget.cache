@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0LZguPNiBVtaSPzMUXzrUomR3JwPAaVeo92+S7tmhP4mS3R/gGA+QF/cE9ubP6rzJ8DEAve8P2KYLEnhNJBT/w==",
+  "dgSpecHash": "UOTHXM2QdZ7UwnhRz0WvDqZ38lZHuUC82NCv1kbPRa2E8WuSBvuIqLy+de8ZsY3nHvRtlq2i4XgCHTrkDy1aXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\marko.bode\\RiderProjects\\Gym-Buddy2\\gym-buddy-backend\\Extensions.Base\\Extensions.Base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.3.310801\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.310801.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.0\\microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.identitymodel.logging\\6.10.0\\microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
     "C:\\Users\\marko.bode\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
